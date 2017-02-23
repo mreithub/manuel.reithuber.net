@@ -47,7 +47,7 @@ body {
 	margin: 0 auto;
 }
 
-.site-header, .post-list > li {
+.site-header, .post-list > li, .post {
 	border-radius: 10px 10px;
 	border: 1px solid #ddd;
 	background: white;
@@ -74,15 +74,26 @@ body {
 }
 
 /*
-   Post list
+   Post
 */
 
-.post-list li h2 {
+.post-list li h2, .post-header {
 	border-top-left-radius: 10px 10px;
 	border-top-right-radius: 10px 10px;
 	background-color: #eee;
 }
 
+.post-header {
+	padding: 10px 10px 1px 10px;
+}
+
+.post-content {
+	padding: 3px 20px;
+}
+
+/*
+    Post list
+*/
 .post-list .post-meta {
 	padding: 10px;
 	float: right;
