@@ -1,8 +1,6 @@
 <footer class="site-footer">
   <div class="wrapper">
 <!--    <h2 class="footer-heading">{{ site.title | escape }}</h2>-->
-    <span>&copy;2009-2017 Manuel Reithuber</span>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         {% for my_page in site.pages %}
@@ -17,7 +15,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <ul class="social-media-list">
+        <ul class="social-media-list" style="text-align: right">
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -29,7 +27,16 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+
+          <li class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
         </ul>
+      </div>
+      <div>&copy;2009-2017 Manuel Reithuber</div>
+      <div>
+        Powered by
+        <a href="https://jekyllrb.com/">Jekyll</a>
+        and hosted on
+        <a href="https://github.com/mreithub/manuel.reithuber.net/">GitHub Pages</a>
       </div>
     </div>
   </div>
