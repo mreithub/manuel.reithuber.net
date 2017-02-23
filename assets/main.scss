@@ -105,3 +105,17 @@ body {
 	padding: 3px 10px;
 }
 
+/*
+    Pagination
+*/
+
+.pagination {
+	position: relative;
+	text-align: center;
+}
+
+.pagination .next, .pagination .previous {
+	position: absolute;
+}
+.pagination .previous { left: 0; }
+.pagination .next { right: 0; }
