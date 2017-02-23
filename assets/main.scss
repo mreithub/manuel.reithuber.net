@@ -42,18 +42,21 @@ body {
 	background-color: #f8f8f8;
 }
 
-.site-header, .page-content {
-	border-radius: 10px 10px;
-	border: 1px solid #ddd;
-	background: white;
+.site-header, .wrapper {
 	max-width: 1024px;
 	margin: 0 auto;
 }
 
+.site-header, .post-list > li {
+	border-radius: 10px 10px;
+	border: 1px solid #ddd;
+	background: white;
+}
+
 .site-header {
-	padding: 0.5em 0;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	margin-top: 1em;
+	padding: 0.5em 0;
 }
 
 .page-content {
@@ -69,3 +72,36 @@ body {
 .site-footer a {
 	color: #828282;
 }
+
+/*
+   Post list
+*/
+
+.post-list li h2 {
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	background-color: #eee;
+}
+
+.post-list .post-meta {
+	padding: 10px;
+	float: right;
+}
+
+.tags {
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	background-color: #eee;
+	font-size: 14px;
+	color: #828282;
+	margin: 0;
+}
+.tags > li {
+	display: inline;
+	list-style: none;
+}
+
+.post-list li h2, .post-list .tags, .post-list .excerpt {
+	padding: 3px 10px;
+}
+
