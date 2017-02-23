@@ -38,24 +38,34 @@ $on-laptop:        800px;
 // Import partials from the `minima` theme.
 @import "minima";
 
-body, .site-footer {
-	background-color: #333;
+body {
+	background-color: #f8f8f8;
+}
+
+.site-header, .page-content {
+	border-radius: 10px 10px;
+	border: 1px solid #ddd;
+	background: white;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 .site-header {
-	background-color: black;
 	padding: 0.5em 0;
-}
-
-.site-header a:hover {
-	text-decoration: none;
+	margin-bottom: 2em;
+	margin-top: 1em;
 }
 
 .page-content {
 	min-height: 400px;
-	background-color: white;
+	margin-bottom: 2em;
 }
 
-.site-title, .site-title:visited, .site-footer, .site-footer a, .site-footer a:visited, .footer-col-wrapper {
+.site-footer {
+	background: #333;
 	color: white;
+}
+
+.site-footer a {
+	color: #828282;
 }
