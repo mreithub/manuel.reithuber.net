@@ -1,6 +1,6 @@
 ---
 id: 181
-title: My routine when setting up debian hosts
+title: My routine for setting up debian hosts
 date: 2016-07-08T08:16:22+00:00
 author: Manuel Reithuber
 layout: post
