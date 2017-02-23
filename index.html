@@ -15,8 +15,7 @@ layout: default
         <div class="excerpt">{{ post.excerpt }}</div>
         <ul class="tags">{% for tag in post.tags %}
           <li>
-            {{tag}}
-            {% if forloop.last == false %},{% endif %}
+            {{tag}}{% if forloop.last == false %},{% endif %}
           </li>
         {% endfor %}</ul>
       </li>
