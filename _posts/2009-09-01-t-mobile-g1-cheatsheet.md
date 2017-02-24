@@ -14,7 +14,7 @@ tags:
   - reset
   - shortcuts
 ---
-Hier ein paar nützliche Tastenkombinationen für&#8217;s HTC Dream:
+Hier ein paar nützliche Tastenkombinationen für's HTC Dream:
   
 (inwieweit diese Anleitung auch für andere Android-Handys gilt, weiß ich nicht)
 
@@ -30,7 +30,7 @@ Hier ein paar nützliche Tastenkombinationen für&#8217;s HTC Dream:
   
     Der HTC Dream Bootloader ermöglicht es, händisch Firmware Upgrades einzuspielen.
   
-    Bei den europäischen G1 wird dafür aber eine speziell modifizierte SD-Karte (&#8220;GoldCard&#8221;) benötigt.
+    Bei den europäischen G1 wird dafür aber eine speziell modifizierte SD-Karte ("GoldCard") benötigt.
   
     Gerät ausschalten, **Kamera**-Knopf halten, **Power** (Auflegen) drücken
   

@@ -15,9 +15,9 @@ tags:
   - server
   - ubuntu
 ---
-In this post I&#8217;ll try to sum up the steps I take right after I get my hands on a vanilla [debian](https://www.debian.org) installation (the same applies to [Ubuntu](http://www.ubuntu.com) or other debian derivatives).
+In this post I'll try to sum up the steps I take right after I get my hands on a vanilla [debian](https://www.debian.org) installation (the same applies to [Ubuntu](http://www.ubuntu.com) or other debian derivatives).
 
-Some of these commands are interactive (they can be automated though). I&#8217;m not doing this often enough to justify an automation.
+Some of these commands are interactive (they can be automated though). I'm not doing this often enough to justify an automation.
 
 First I install a few convenience packages (depending on the installation, some of them may already be present)
 
@@ -27,7 +27,7 @@ apt-get install locales openssh-server sudo ntp wget curl mosh less most vim bas
 ```
     
 
-After that, I&#8217;ll set up locales and the system&#8217;s timezone
+After that, I'll set up locales and the system's timezone
 
 ```bash
 dpkg-reconfigure locales tzdata
@@ -35,7 +35,7 @@ dpkg-reconfigure locales tzdata
 
 <!--snip-->
 
-&#8230; as well as the host name (the first sets the current host name, the second one persists it across reboots)
+... as well as the host name (the first sets the current host name, the second one persists it across reboots)
 
 ```bash
 hostname newdebian.example.com
@@ -64,7 +64,7 @@ adduser manuel sudo
 ```
     
 
-Then I add my SSH public key (there&#8217;s the [`ssh-copy-id` command](http://askubuntu.com/a/4833) that does the same thing, but I personally prefer the manual way):
+Then I add my SSH public key (there's the [`ssh-copy-id` command](http://askubuntu.com/a/4833) that does the same thing, but I personally prefer the manual way):
 
 ```bash
 mkdir /home/manuel/.ssh
@@ -73,14 +73,14 @@ chown manuel:manuel /home/manuel/.ssh/ -R
 ```
     
 
-Recently I&#8217;ve started dockerizing all my services. To install a (recent) version of [Docker](https://www.docker.com), I use the shell script they provide:
+Recently I've started dockerizing all my services. To install a (recent) version of [Docker](https://www.docker.com), I use the shell script they provide:
 
 ```bash
 curl -fsSL https://get.docker.com/ | sh
 ```
     
 
-&#8230; only allow non-password root logins via SSH (i.e using SSH keys)
+... only allow non-password root logins via SSH (i.e using SSH keys)
 
 ```bash
 # edit /etc/ssh/sshd_config, find the `PermitRootLogin` line and change its value to `without-password`
@@ -89,8 +89,8 @@ sed -i 's/^PermitRootLogin.*$/PermitRootLogin without-password/' /etc/ssh/sshd_c
 ```
     
 
-**Important**: After editing `sshd_config` and restarting the SSH server, always open a new terminal and make sure you haven&#8217;t locked yourself out of the machine!
+**Important**: After editing `sshd_config` and restarting the SSH server, always open a new terminal and make sure you haven't locked yourself out of the machine!
 
-After I&#8217;ve come this far, I usually reboot the system (if it&#8217;s an actual system we&#8217;re talking about 😉 )
+After I've come this far, I usually reboot the system (if it's an actual system we're talking about 😉 )
 
     shutdown -r now

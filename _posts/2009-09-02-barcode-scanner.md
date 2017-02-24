@@ -22,7 +22,7 @@ Mit diesem Programm beginne ich meine Serie der Android Software Vorstellungen.
 
 Der <a href="http://code.google.com/p/zxing/" target="_blank">ZXing Barcode Scanner</a> ist ein hilfreiches Tool, um (wie der Name schon sagt) Barcodes zu scannen.
 
-Er ist Teil des ZXing Project (&#8220;Zebra Crossing&#8221;), einer Java-Barcode-Library, die unter der Apache License vertrieben wird.
+Er ist Teil des ZXing Project ("Zebra Crossing"), einer Java-Barcode-Library, die unter der Apache License vertrieben wird.
 
 <!--snip-->
 
@@ -56,7 +56,7 @@ Diese QR-Codes können beliebigen Text und/0der Links enthalten und werden immer
 
 [sqrcode]market://search?q=pname:com.google.zxing.client.android[/sqrcode]
 
-Beispielsweise ist im obigen Tag eine Android Market URL enthalten, die (wenn man den Code einscannt und auf &#8220;Open browser&#8221; klickt) automatisch den Android Market lädt und die entsprechende Applikation gesucht.
+Beispielsweise ist im obigen Tag eine Android Market URL enthalten, die (wenn man den Code einscannt und auf "Open browser" klickt) automatisch den Android Market lädt und die entsprechende Applikation gesucht.
 
 Als Alternative muss ich noch den <a href="http://www.ixellence.com/index.php?option=com_content&view=article&id=141&Itemid=225&lang=en" target="_blank">ixMAT Barcode Scanner</a> nennen, der zwar die gleiche GUI verwendet, aber mehr Barcodetypen unterstützt:
 

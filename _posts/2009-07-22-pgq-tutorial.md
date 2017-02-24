@@ -192,7 +192,7 @@ pgq.insert_event('queueName', 'eventType', 'data');
 
 #### Consumer side
 
-To receive events, you have to register a &#8220;Consumer&#8221;:
+To receive events, you have to register a "Consumer":
 
 ```sql
 pgq.register_consumer('queueName', 'consumerName');

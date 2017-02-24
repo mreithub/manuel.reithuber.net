@@ -10,7 +10,7 @@ tags:
   - network
   - qt
 ---
-Sometimes one needs to find out programmatically on which interface the default route is on.To do this in Qt, the following snippet can be used on Linux and probably other Unices (where everything&#8217;s a file ;)).
+Sometimes one needs to find out programmatically on which interface the default route is on.To do this in Qt, the following snippet can be used on Linux and probably other Unices (where everything's a file ;)).
 
 I used this snippet to prevent [MediaTomb](http://mediatomb.cc/) from listening on the wrong interface, but there are definitely other use cases as well:
 
@@ -37,7 +37,9 @@ while (!(line = routeFile.readLine()).isNull()) {
 return rc;
 ```
 
-In the shell, you&#8217;d do something like this:
+In the shell, you'd do something like this:
 
-<pre class="brush: bash; title: ; notranslate" title="">cut -f1,2,8 /proc/net/route --output-delimiter=:|grep 00000000:00000000$|cut -d: -f1
-</pre>
+```bash
+cut -f1,2,8 /proc/net/route --output-delimiter=:|grep 00000000:00000000$|cut -d: -f1
+```
+

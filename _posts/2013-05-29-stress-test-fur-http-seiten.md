@@ -9,17 +9,17 @@ permalink: /2013/05/stress-test-fur-http-seiten/
 categories:
   - Uncategorized
 ---
-Kürzlich war ich auf der Suche nach einem Tool, mit dem ich diesen Blog Stress-Testen konnte. Ich wollte sehen, was passiert, wenn (falls&#8230;) einmal unter Last kommt.
+Kürzlich war ich auf der Suche nach einem Tool, mit dem ich diesen Blog Stress-Testen konnte. Ich wollte sehen, was passiert, wenn (falls...) einmal unter Last kommt.
 
 Es gibt verschiedene Dienste, die genau das im Internet anbieten, aber eine schnelle Suche hat nur solche zu Tage gebracht, die entweder Geld für die Tests verlangen (was ich bei der Menge des anfallenden Traffics auch verstehe) oder einen Gratis-Test nur gegen Veröffentlichung der Ergebnisse anbieten (z.B. [loadimpact.com](http://loadimpact.com/load-test/manuel.reithuber.net-3279369fdb2f089c751cdc1606f45213 "Test der Hauptseite dieses Blogs mittels LoadImpact")).
 
-Also war ich auf der Suche nach einer leicht zu verwendenden Client-Lösung. Wiederum nach kurzer Web-Recherche stieß ich auf **_ab_**, was für &#8216;Apache Benchmark&#8217; steht und angenehmerweise schon mit Apache ausgeliefert wird (z.B. im Paket [apache-utils](http://www.debianhelp.co.uk/apacheab.htm "Link zu einer Debian-Seite, die die Installation von AB erklärt") unter Debian/Ubuntu). Es ist ziemlich einfach zu verwenden (Details in der [manpage](http://linux.die.net/man/1/ab "AB manpage")), hält sich jedoch auch schlicht, d.h. es wird nur die angegebene URL abgefragt, keine Bilder, JavaScript, CSS oder was auch immer noch mit ausgeliefert werden würde. Aber in Verbindung mit der Netzwerk-Requestansicht der Developer-Tools des Browsers (in meinem Fall Chrome) lassen sich die langsameren Requests relativ leicht erkennen:
+Also war ich auf der Suche nach einer leicht zu verwendenden Client-Lösung. Wiederum nach kurzer Web-Recherche stieß ich auf `ab`, was für *Apache Benchmark* steht und angenehmerweise schon mit Apache ausgeliefert wird (z.B. im Paket [apache-utils](http://www.debianhelp.co.uk/apacheab.htm "Link zu einer Debian-Seite, die die Installation von AB erklärt") unter Debian/Ubuntu). Es ist ziemlich einfach zu verwenden (Details in der [manpage](http://linux.die.net/man/1/ab "AB manpage")), hält sich jedoch auch schlicht, d.h. es wird nur die angegebene URL abgefragt, keine Bilder, JavaScript, CSS oder was auch immer noch mit ausgeliefert werden würde. Aber in Verbindung mit der Netzwerk-Requestansicht der Developer-Tools des Browsers (in meinem Fall Chrome) lassen sich die langsameren Requests relativ leicht erkennen:
 
 <div id="attachment_146" style="width: 921px" class="wp-caption alignnone">
   <a href="http://manuel.reithuber.net/wp-content/uploads/2013/05/blogTimingSlow.png" style="text-align: left"><img class="wp-image-146  " alt="Chrome's Request timing zeigt, dass es Verbesserungsbedarf gibt (bzw. gab)" src="http://manuel.reithuber.net/wp-content/uploads/2013/05/blogTimingSlow.png" width="911" height="222" srcset="http://manuel.reithuber.net/wp-content/uploads/2013/05/blogTimingSlow.png 1302w, http://manuel.reithuber.net/wp-content/uploads/2013/05/blogTimingSlow-300x73.png 300w, http://manuel.reithuber.net/wp-content/uploads/2013/05/blogTimingSlow-1024x249.png 1024w" sizes="(max-width: 911px) 100vw, 911px" /></a>
   
   <p class="wp-caption-text">
-    Chrome&#8217;s Request timing zeigt, dass es Verbesserungsbedarf gibt (bzw. gab)
+    Chrome's Request timing zeigt, dass es Verbesserungsbedarf gibt (bzw. gab)
   </p>
 </div>
 <!--snip-->

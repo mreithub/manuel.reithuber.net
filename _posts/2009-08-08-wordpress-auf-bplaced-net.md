@@ -19,14 +19,14 @@ Wer einen einfachen und günstigen (um genauer zu sein: kostenlosen und werbefre
 
 Für die, die bplaced noch nicht kennen: Der Wiener Anbieter bietet wahlweise 1 oder 2 GB Webspace mit PHP, MySQL & PostgreSQL. Lediglich URL-Zugriffsfunktionen im PHP sind eingeschränkt, um Missbrauch vorzubeugen.
 
-Für WordPress oder andere Blogging Systeme, CMS, &#8230; sind also (nahezu) perfekte Voraussetzungen geschaffen.
+Für WordPress oder andere Blogging Systeme, CMS, ... sind also (nahezu) perfekte Voraussetzungen geschaffen.
 
 Und das Beste ist: Man kann den bplaced-Account auf beliebige Domains aufschalten. (in meinem Fall z.B. http://manuel.reithuber.net).
 
 Die Installation ist ziemlich einfach:
 
   * bplaced-Konto erstellen
-  * im bplaced-Konto MySQL-DB erstellen z.b. &#8220;username_blog&#8221;
+  * im bplaced-Konto MySQL-DB erstellen z.b. `username_blog`;
   * WordPress [downloaden](http://wordpress.org/download/)
   * entpacken (z.B.: mit [7Zip](http://www.7-zip.org/))
   * per ftp-client (z.B.: [FileZilla](http://filezilla-project.org/)) den entpackten Ordner auf den Server ftp://_username_.bplaced.net hochladen, z.b. in den ordner /blog
