@@ -42,6 +42,14 @@ body {
 	background-color: #f8f8f8;
 }
 
+a, a:visited {
+	color: #444;
+}
+
+/*
+    Site layout
+*/
+
 .site-header, .wrapper {
 	max-width: 1024px;
 	margin: 0 auto;
