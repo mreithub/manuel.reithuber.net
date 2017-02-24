@@ -25,6 +25,8 @@ Dann im Menü _Aktion_ auf _Verbindung mit einem anderen Computer herstellen_:
 
 [<img class="alignnone size-full wp-image-84" title="computerverwaltung_verbinden" src="http://manuel.reithuber.net/wp-content/uploads/2010/08/computerverwaltung_verbinden.png" alt="&quot;Verbindung mit einem anderen Computer herstellen&quot;" width="637" height="452" srcset="http://manuel.reithuber.net/wp-content/uploads/2010/08/computerverwaltung_verbinden.png 637w, http://manuel.reithuber.net/wp-content/uploads/2010/08/computerverwaltung_verbinden-300x212.png 300w" sizes="(max-width: 637px) 100vw, 637px" />](http://manuel.reithuber.net/wp-content/uploads/2010/08/computerverwaltung_verbinden.png)
 
+<!--snip-->
+
 [<img class="alignnone size-full wp-image-85" title="computerverwaltung_pc_auswahl" src="http://manuel.reithuber.net/wp-content/uploads/2010/08/computerverwaltung_pc_auswahl.png" alt="Computerverwaltung: PC-Auswahl" width="503" height="227" srcset="http://manuel.reithuber.net/wp-content/uploads/2010/08/computerverwaltung_pc_auswahl.png 503w, http://manuel.reithuber.net/wp-content/uploads/2010/08/computerverwaltung_pc_auswahl-300x135.png 300w" sizes="(max-width: 503px) 100vw, 503px" />](http://manuel.reithuber.net/wp-content/uploads/2010/08/computerverwaltung_pc_auswahl.png)
 
 Dann Links unter _Dienste und Anwendungen_ auf _Dienste_ klicken und rechts den Eintrag _Remoteregistrierung_ auswählen. Anschließend auf _Starten_ klicken:

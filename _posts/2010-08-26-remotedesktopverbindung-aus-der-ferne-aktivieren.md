@@ -25,6 +25,8 @@ klickt im Menü _Datei_ auf _Mit Netzwerkregistrierung verbinden_
 
 [<img class="alignnone size-full wp-image-76" title="regedit_file_connect" src="http://manuel.reithuber.net/wp-content/uploads/2010/08/regedit_file_connect.png" alt="Regedit: Datei/Mit Netzwerkregistrierung verbinden" width="274" height="218" />](http://manuel.reithuber.net/wp-content/uploads/2010/08/regedit_file_connect.png)
 
+<!--snip-->
+
 [<img class="alignnone size-full wp-image-78" title="regedit_connect" src="http://manuel.reithuber.net/wp-content/uploads/2010/08/regedit_connect.png" alt="PC-Namen eingeben und bestätigen" width="463" height="246" srcset="http://manuel.reithuber.net/wp-content/uploads/2010/08/regedit_connect.png 463w, http://manuel.reithuber.net/wp-content/uploads/2010/08/regedit_connect-300x159.png 300w" sizes="(max-width: 463px) 100vw, 463px" />](http://manuel.reithuber.net/wp-content/uploads/2010/08/regedit_connect.png)
 
 und Navigiert zum Schlüssel

@@ -1,7 +1,7 @@
-title: "Manuel Reithuber's Blog"
+title: "manuel.reithuber.net blog"
 author: Manuel Reithuber
 description: > # this means to ignore newlines until "baseurl:"
-  whatever's on my mind
+  Manuel Reithuber's private blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://manuel.reithuber.net
 twitter_username: mreithub
@@ -20,3 +20,5 @@ exclude:
 
 paginate: 10
 paginate_path: "page/:num"
+
+excerpt_separator: "<!--snip-->"

@@ -1,6 +1,6 @@
 ---
 id: 65
-title: 'DNS Do&#8217;s and Dont&#8217;s'
+title: "DNS Dos and Don'ts"
 date: 2010-04-08T20:59:20+00:00
 author: Manuel Reithuber
 layout: post

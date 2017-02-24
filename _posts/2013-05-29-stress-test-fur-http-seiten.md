@@ -22,6 +22,7 @@ Also war ich auf der Suche nach einer leicht zu verwendenden Client-Lösung. Wie
     Chrome&#8217;s Request timing zeigt, dass es Verbesserungsbedarf gibt (bzw. gab)
   </p>
 </div>
+<!--snip-->
 
 <p style="text-align: left;">
   Der erste Request auf die Seite selbst dauert fast 400ms. Apache-AB zeigt ein ähnliches Bild:

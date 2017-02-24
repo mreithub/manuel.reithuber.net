@@ -24,6 +24,8 @@ Der <a href="http://code.google.com/p/zxing/" target="_blank">ZXing Barcode Scan
 
 Er ist Teil des ZXing Project (&#8220;Zebra Crossing&#8221;), einer Java-Barcode-Library, die unter der Apache License vertrieben wird.
 
+<!--snip-->
+
 <div id="attachment_45" style="width: 310px" class="wp-caption alignnone">
   <img class="size-medium wp-image-45" title="barcode_product" src="http://manuel.reithuber.net/wp-content/uploads/2009/09/barcode_product-300x200.png" alt="Screenshot: eingescannter Barcode aus der Wikipedia" width="300" height="200" srcset="http://manuel.reithuber.net/wp-content/uploads/2009/09/barcode_product-300x200.png 300w, http://manuel.reithuber.net/wp-content/uploads/2009/09/barcode_product.png 480w" sizes="(max-width: 300px) 100vw, 300px" />
   
