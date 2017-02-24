@@ -9,11 +9,11 @@ permalink: /2009/08/wordpress-auf-bplaced-net/
 categories:
   - Web
 tags:
-  - bplaced
   - hosting
   - mysql
   - php
   - wordpress
+  - german
 ---
 Wer einen einfachen und günstigen (um genauer zu sein: kostenlosen und werbefreien) Weg sucht, um an Webspace mit Blogging-System zu kommen, dem kann ich [bplaced.net](http://www.bplaced.net) empfehlen.
 

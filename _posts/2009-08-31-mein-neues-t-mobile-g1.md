@@ -8,6 +8,9 @@ guid: http://manuel.reithuber.net/2009/08/mein-neues-t-mobile-g1/
 permalink: /2009/08/mein-neues-t-mobile-g1/
 categories:
   - Android
+tags:
+  - android
+  - german
 ---
 Seit Samstag bin ich nun schon stolzer Besitzer eines HTC Dream (oder auch T-Mobile G1), das ich mir per eBay günstig ersteigert habe.
   

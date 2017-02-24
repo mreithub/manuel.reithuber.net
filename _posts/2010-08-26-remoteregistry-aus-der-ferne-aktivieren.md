@@ -9,9 +9,8 @@ permalink: /2010/08/remoteregistry-aus-der-ferne-aktivieren/
 categories:
   - Windows
 tags:
-  - computerverwaltung
-  - remoteregistrierung
   - windows
+  - german
 ---
 Falls der Versuch, sich mit einer Netzwerkregistrierung zu verbinden (wie im vorigen Post [Remotedesktopverbindung aus der Ferne aktivieren](http://manuel.reithuber.net/2010/08/remotedesktopverbindung-aus-der-ferne-aktivieren/)), fehlschlägt, kann diese relativ einfach (ebenfalls übers Netzwerk) aktiviert werden.
   

@@ -9,10 +9,9 @@ permalink: /2009/09/t-mobile-g1-cheatsheet/
 categories:
   - Android
 tags:
-  - Android
-  - g1
-  - reset
-  - shortcuts
+  - android
+  - cheatsheet
+  - german
 ---
 Hier ein paar nützliche Tastenkombinationen für's HTC Dream:
   

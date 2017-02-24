@@ -6,8 +6,10 @@ author: Manuel Reithuber
 layout: post
 guid: http://manuel.reithuber.net/?p=110
 permalink: /2013/01/mp3-support-for-chromium/
-categories:
-  - Uncategorized
+tags:
+  - html5
+  - audio
+  - mp3
 ---
 I've been playing around with the HTML5 `<audio>` tag for some time now, always having trouble to play back Icecast Streams in Chrome (while they were working in Firefox; both apt-getted from the Ubuntu repos). Chrome was requesting the Stream and actively downloading it (which I observed using Chrome's webdev-tools).
 

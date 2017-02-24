@@ -9,10 +9,7 @@ permalink: /2009/07/pgq-tutorial/
 categories:
   - Databases
 tags:
-  - howto
-  - pg
   - postgres
-  - postgresql
   - tutorial
 ---
 This article is meant to be a short tutorial on how to setup PG/Q for your databases.

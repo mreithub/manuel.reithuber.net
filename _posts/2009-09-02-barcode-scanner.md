@@ -9,6 +9,9 @@ permalink: /2009/09/barcode-scanner/
 categories:
   - Android
   - Apps
+tags:
+  - android
+  - apps
 ---
 <div id="attachment_47" style="width: 490px" class="wp-caption alignnone">
   <img class="size-full wp-image-47" title="barcode_search" src="http://manuel.reithuber.net/wp-content/uploads/2009/09/barcode_search.png" alt="Screenshot: Programm auf Barcode-Suche" width="480" height="320" srcset="http://manuel.reithuber.net/wp-content/uploads/2009/09/barcode_search.png 480w, http://manuel.reithuber.net/wp-content/uploads/2009/09/barcode_search-300x200.png 300w" sizes="(max-width: 480px) 100vw, 480px" />

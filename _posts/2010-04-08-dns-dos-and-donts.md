@@ -6,8 +6,9 @@ author: Manuel Reithuber
 layout: post
 guid: http://manuel.reithuber.net/?p=65
 permalink: /2010/04/dns-dos-and-donts/
-categories:
-  - Uncategorized
+tags:
+  - dns
+  - german
 ---
 Hier mal ein paar Dinge, die man beim Domain-Verwalten beachten sollte und meist selbst "schmerzvoll" erfahren musste...
 

@@ -8,6 +8,10 @@ guid: http://manuel.reithuber.net/?p=15
 permalink: /2009/08/bash-history-tricks/
 categories:
   - Linux
+tags:
+  - bash
+  - linux
+  - cheatsheet
 ---
 In addition to the possibility to view/edit your `~/.bash_history` manually, I've collected some little tips for the bash history:
 

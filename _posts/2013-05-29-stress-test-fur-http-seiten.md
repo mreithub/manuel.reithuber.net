@@ -6,8 +6,9 @@ author: Manuel Reithuber
 layout: post
 guid: http://manuel.reithuber.net/?p=145
 permalink: /2013/05/stress-test-fur-http-seiten/
-categories:
-  - Uncategorized
+tags:
+  - http
+  - german
 ---
 Kürzlich war ich auf der Suche nach einem Tool, mit dem ich diesen Blog Stress-Testen konnte. Ich wollte sehen, was passiert, wenn (falls...) einmal unter Last kommt.
 
