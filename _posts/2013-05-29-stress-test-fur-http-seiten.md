@@ -28,8 +28,9 @@ Also war ich auf der Suche nach einer leicht zu verwendenden Client-Lösung. Wie
   Der erste Request auf die Seite selbst dauert fast 400ms. Apache-AB zeigt ein ähnliches Bild:
 </p>
 
-<pre class="brush: plain; title: ; notranslate" title="">$ ab -c 10 -n 150 'http://manuel.reithuber.net/'
-This is ApacheBench, Version 2.3 &lt;$Revision: 655654 $&gt;
+```
+$ ab -c 10 -n 150 'http://manuel.reithuber.net/'
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
@@ -42,14 +43,14 @@ Document Path: /
 Document Length: 54520 bytes
 
 Concurrency Level: 10
-&lt;strong&gt;Time taken for tests: 29.540 seconds&lt;/strong&gt;
+Time taken for tests: 29.540 seconds
 Complete requests: 150
 Failed requests: 0
 Write errors: 0
 Total transferred: 8234250 bytes
 HTML transferred: 8178000 bytes
 Requests per second: 5.08 [#/sec] (mean)
-&lt;strong&gt;Time per request: 1969.323 [ms] (mean)&lt;/strong&gt;
+Time per request: 1969.323 [ms] (mean)
 Time per request: 196.932 [ms] (mean, across all concurrent requests)
 Transfer rate: 272.22 [Kbytes/sec] received
 
@@ -70,7 +71,7 @@ Percentage of the requests served within a certain time (ms)
  98% 2242
  99% 2248
  100% 2267 (longest request)
-</pre>
+```
 
 Bei zehn parallelen Requests dauerte es im Schnitt fast zwei Sekunden, bis ein User seine Antwort bekommt! Und für 150 Requests war AB 30 Sekunden lang beschäftigt!
 
@@ -86,11 +87,12 @@ Das really-static Plugin ist mMn noch nicht 100%ig ausgereift (Doku eher dürfti
 
 Zuguterletzt lasse ich noch einmal das Benchmark-Tool laufen, um die Performanceverbesserung zu überprüfen:
 
-<pre class="brush: plain; title: ; notranslate" title="">$ ab -c 10 -n 150 'http://manuel.reithuber.net/'
+```
+$ ab -c 10 -n 150 'http://manuel.reithuber.net/'
 
-&lt;em id="__mceDel"&gt;This is ApacheBench, Version 2.3 &lt;$Revision: 655654 $&gt;
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
-Licensed to The Apache Software Foundation, http://www.apache.org/&lt;/em&gt;
+Licensed to The Apache Software Foundation, http://www.apache.org/
 
 Benchmarking manuel.reithuber.net (be patient).....done
 
@@ -102,14 +104,14 @@ Document Path: /
 Document Length: 49624 bytes
 
 Concurrency Level: 10
-&lt;strong&gt;Time taken for tests: 3.150 seconds&lt;/strong&gt;
+Time taken for tests: 3.150 seconds
 Complete requests: 150
 Failed requests: 0
 Write errors: 0
 Total transferred: 7485900 bytes
 HTML transferred: 7443600 bytes
 Requests per second: 47.61 [#/sec] (mean)
-&lt;strong&gt;Time per request: 210.022 [ms] (mean)&lt;/strong&gt;
+Time per request: 210.022 [ms] (mean)
 Time per request: 21.002 [ms] (mean, across all concurrent requests)
 Transfer rate: 2320.53 [Kbytes/sec] received
 
@@ -130,7 +132,6 @@ Percentage of the requests served within a certain time (ms)
  98% 248
  99% 283
  100% 2543 (longest request)
-
-</pre>
+```
 
 Eine Verbesserung fast um Faktor 10, das kann sich doch sehen lassen 😉
