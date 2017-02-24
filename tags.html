@@ -4,7 +4,8 @@ layout: page
 ---
 
 <ul class="tags">
-{% for tag in site.tags %}
+{% assign sortedTags = site.tags | sort %}
+{% for tag in sortedTags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
   <li>
@@ -14,7 +15,7 @@ layout: page
 {% endfor %}
 </ul>
 
-{% for tag in site.tags %}
+{% for tag in sortedTags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
 
